@@ -57,7 +57,7 @@ function login(req, res, next) {
                     { expiresIn: 3600, algorithm: 'RS256' },
                 );
 
-                res.send(200, { access_token: token, user: user });
+                res.send(200, { access_token: token });
             } else {
                 throw new errors.UnauthorizedError('');
             }
