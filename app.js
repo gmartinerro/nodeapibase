@@ -28,8 +28,8 @@ var config = {
             } catch (err) {
                 next(new errors.UnauthorizedError());
             }
-        },
-    },
+        }
+    }
 };
 
 SwaggerRestify.create(config, function(err, swaggerRestify) {
