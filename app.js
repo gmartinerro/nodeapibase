@@ -5,7 +5,6 @@ var restify = require('restify');
 const errors = require('restify-errors');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
-const dao = require('./database');
 
 const app = restify.createServer();
 

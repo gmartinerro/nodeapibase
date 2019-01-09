@@ -1,11 +1,11 @@
 {
-  "name": "apibase",
-  "version": "0.0.1",
+  "name": "nodeapibase",
+  "version": "1.0.0",
   "private": true,
-  "description": "New Swagger API Project",
-  "keywords": [],
-  "author": "",
-  "license": "",
+  "description": "Swagger/Restify/JWT API Project base",
+  "keywords": ["node","swagger","jwt","restify","api"],
+  "author": "Gonzalo Martín <wizzumdev@gmail.com>",
+  "license": "ISC",
   "main": "app.js",
   "dependencies": {
     "jsonwebtoken": "^8.3.0",
@@ -21,6 +21,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "swagger project start",
-    "test": "swagger project test"
+    "test": "swagger project test",
+    "keygen": "./keygen.sh"
   }
 }

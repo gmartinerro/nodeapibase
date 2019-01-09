@@ -25,7 +25,7 @@ var util = require('util');
   we specify that in the exports of this module that 'hello' maps to the function named 'hello'
  */
 module.exports = {
-    hello: hello,
+    hello: hello
 };
 
 /*
@@ -40,5 +40,5 @@ function hello(req, res) {
     var hello = util.format('Hello, %s!', name);
 
     // this sends back a JSON response which is a single string
-    res.json({ greetings: hello });
+    res.json(hello);
 }
