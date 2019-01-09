@@ -1,7 +1,6 @@
 {
   "name": "nodeapibase",
   "version": "1.0.0",
-  "private": true,
   "description": "Swagger/Restify/JWT API Project base",
   "keywords": [
     "node",
