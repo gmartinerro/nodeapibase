@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "Swagger/Restify/JWT API Project base",
-  "keywords": ["node","swagger","jwt","restify","api"],
+  "keywords": [
+    "node",
+    "swagger",
+    "jwt",
+    "restify",
+    "api"
+  ],
   "author": "Gonzalo Martín <wizzumdev@gmail.com>",
   "license": "ISC",
   "main": "app.js",
@@ -23,5 +29,16 @@
     "dev": "swagger project start",
     "test": "swagger project test",
     "keygen": "./keygen.sh"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmartinerro/nodeapibase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmartinerro/nodeapibase/issues"
+  },
+  "homepage": "https://github.com/gmartinerro/nodeapibase#readme"
 }
